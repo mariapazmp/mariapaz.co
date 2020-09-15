@@ -1,0 +1,104 @@
+/* ==========================================================================
+   Normalizing Styles
+   ========================================================================== */
+
+html, body {
+    color: var(--text-color);
+    margin: 0;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    color: var(--text-color-active);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+main {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+}
+
+i.fas {
+    margin-right: 0.3rem;
+}
+
+.main-container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1140px) {
+    .main-container {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* ==========================================================================
+   Global styles: header, footer and common elements
+   ========================================================================== */
+
+
+:root {
+    --text-color: #383838;
+    --text-color-active: #9823c8;
+}
+
+html {
+    background: #F3f3f3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 8rem 2rem 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+    padding-top: 2rem;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+.social-media-links {
+    list-style-type: none;
+    padding: 3rem 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-links li {
+    padding: 0 2rem;
+}
+
+.social-media-links li a {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-links li i {
+    font-size: 2.5rem;
+}
+
+.profile-pic {
+    border-radius: 90px;
+    width: 180px;
+}
