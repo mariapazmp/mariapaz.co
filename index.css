@@ -3,7 +3,7 @@
    ========================================================================== */
 
 html, body {
-    color: var(--text-color);
+    color: white;
     margin: 0;
     height: 100%;
     -webkit-text-size-adjust: 100%;
@@ -54,17 +54,23 @@ i.fas {
 
 :root {
     --text-color: #383838;
-    --text-color-active: #9823c8;
+    --text-color-active: #cf6eff;
 }
 
 html {
-    background: #F3f3f3;
+    background: url("under-construction.png") no-repeat;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     text-align: center;
-    padding: 8rem 2rem 0;
     box-sizing: border-box;
 }
+
+body {
+    background: rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    padding: 8rem 2rem 0;
+}
+
 
 h1 {
     font-family: 'Caveat', cursive;
@@ -100,5 +106,6 @@ h2 {
 
 .profile-pic {
     border-radius: 90px;
+    box-shadow: 0 0 0.2em 0.2em rgba(255, 255, 255, 0.25);
     width: 180px;
 }
