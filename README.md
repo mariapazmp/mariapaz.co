@@ -7,3 +7,4 @@ Personal website and Portfolio. Technical Laboratory to put in practice knowledg
 - Add comming up new features.
 - Linking Behance portfolio design.
 - Embed Instagram feed on landing. 
+- Place videos of past events (meetups, talks, panels)
